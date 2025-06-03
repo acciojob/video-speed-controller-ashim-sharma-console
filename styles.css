@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.speed {
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 430px;
+  width: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.speed-bar {
+  width: 100%;
+  background: #ffc600;
+  height: 10%;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: black;
+  padding: 5px;
+  box-sizing: border-box;
+}
